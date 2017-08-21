@@ -1,0 +1,29 @@
+body {
+  background-color: tomato;
+}
+
+.content {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 150%;
+  background-color: #FFA494;
+  width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.centre {
+  text-align: center;
+}
+
+.result {
+  font-size: 150%;
+}
