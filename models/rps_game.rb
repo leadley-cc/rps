@@ -20,7 +20,6 @@ class RPSGame
   end
 
   def valid_hands?(hand1, hand2)
-    return true if @hands.include?(hand1) && @hands.include?(hand2)
-    return false
+    @hands.include?(hand1) && @hands.include?(hand2)
   end
 end
