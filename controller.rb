@@ -10,7 +10,7 @@ end
 get "/:hand1/:hand2" do
   hand1 = params[:hand1].to_sym
   hand2 = params[:hand2].to_sym
-  result = RPSGame.new.play(hand1, hand2)
+  result = RPSGame.play(hand1, hand2)
   @message =
     case result
     when 0
